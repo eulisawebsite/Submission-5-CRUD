@@ -12,11 +12,11 @@ class UserController extends Controller
         $data = [
             [
                 'nama' => 'ilman',
-                'email' => 'ilmannurhakim0@gmail.com',
-                'telp' => '08232323232',
+                'email' => 'ellisasusilawati@gmail.com',
+                'telp' => '089637410106',
                 'alamat' => [
-                    'street' => 'jl. dago',
-                    'postcode' => '494949'
+                    'street' => 'Kp.Ciborerang',
+                    'postcode' => '40971'
                 ]
             ],
             [

@@ -34,7 +34,7 @@ class AuthorController extends Controller
             'author_name',
         )->get()->toArray();
 
-        $data = AuthorController::getAuthors();
+        $dataAuthor = AuthorController::getAuthors();
 
         return view('authors/index', compact('data'));
     }
